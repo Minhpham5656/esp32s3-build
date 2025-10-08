@@ -130,18 +130,4 @@ void setup() {
 void loop() {
   server.handleClient();
 }
-  Serial.begin(115200);
-  Serial.println("Access Point started");
-  Serial.print("IP address: ");
-  Serial.println(IP);
 
-  // Setup web server
-  server.on("/", handleRoot);
-  server.on("/setColor", handleSetColor);
-  server.begin();
-  Serial.println("Web server started");
-}
-
-void loop() {
-  server.handleClient();
-}
