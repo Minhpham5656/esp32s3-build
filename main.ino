@@ -71,7 +71,7 @@ const char* html_page = R"rawliteral(
   <div class="container">
     <input type="color" id="colorPicker">
   </div>
-  <div class="footer">Made with ❤️ using ESP32-S3</div>
+  <div class="footer">Made with using ESP32-S3</div>
 
   <script>
     const picker = document.getElementById("colorPicker");
