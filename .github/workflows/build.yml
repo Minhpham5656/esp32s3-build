@@ -26,6 +26,7 @@ jobs:
       - name: Install Libraries
         run: |
           arduino-cli lib install "Adafruit NeoPixel"
+          arduino-cli lib install "WebServer"
 
       - name: Compile firmware
         run: |
